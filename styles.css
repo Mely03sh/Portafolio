@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('plano-medio-muy-detallado-de-una-imagen-de-codigo-upscaled.png') center/cover;
+
+    color: #fff;
+}
+
+.logo {
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    position: absolute;
+    top: 10px;
+    left: 2%;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 10em;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 2.5em;
+}
+/* Estilo para el texto dentro de la sección "Sobre Mí" */
+#about h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff; /* Línea decorativa bajo el título */
+}
+
+.section {
+    padding: 50px 0;
+    margin-top: 20px;
+    border: 2px solid#00796b;
+    border-radius: 5px;
+
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.project {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Añade la siguiente regla para la sección "Sobre Mí" */
+#about {
+    font-family: 'Courier New', monospace;
+}
+
+
+
+#about .section-content {
+    font-family: 'Courier New', monospace; /* Añade la misma fuente aquí */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    align-items: center;
+}
+#contact {
+    background-color: #0b0b0b; /* Color de fondo de la sección "Contacto" */
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 1px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.contact-icons img {
+    width: 50px; /* Ajusta el tamaño de los iconos según sea necesario */
+    height: 50px;
+    margin: 0 10px;
+}
+
+.contact-icons a:hover {
+    color: #ffca28; /* Cambia el color al pasar el ratón sobre los iconos */
+}
+.hero {
+    background: url('plano-medio-muy-detallado-de-una-imagen-de-codigo-upscaled.png') center/cover;
+}
+
+#about, #experience, #projects, #contact {
+    background: url('plano-medio-muy-detallado-de-una-imagen-de-codigo-upscaled.png') center/cover;
+    color: #fff;
+}

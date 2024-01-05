@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Melisa Sierra - Estudiante de ingeniería de sistemas</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('plano-medio-muy-detallado-de-una-imagen-de-codigo-upscaled.png') center/cover;
+            color: #fff;
+            overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+        }
+
+        /* Barra de Navegación */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #040404;
+            padding: 15px 0;
+            text-align: center;
+            z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 20px;
+            margin: 0 10px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #03fb39;
+        }
+
+        .logo {
+            width: 90px; /* Ajusta el ancho según sea necesario */
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            z-index: 1001; /* Asegura que el logo esté por encima de la barra de navegación */
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            margin: 10px 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        /* Estilo para el texto dentro de la sección "Sobre Mí" */
+        #about h2 {
+            color: #fff;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #fff; /* Línea decorativa bajo el título */
+        }
+
+        .section {
+            padding: 50px 0;
+            margin-top: 20px;
+            border: 2px solid #00796b;
+            border-radius: 5px;
+        }
+
+        .section-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .project {
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        /* Añade la siguiente regla para la sección "Sobre Mí" */
+        #about {
+            font-family: 'Courier New', monospace;
+        }
+
+        #about .section-content {
+            font-family: 'Courier New', monospace;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        #about h2 {
+            color: #fff;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #fff;
+        }
+
+        #about p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        #contact {
+            background-color: #0b0b0b; /* Color de fondo de la sección "Contacto" */
+            color: #fff;
+            padding: 5px 0;
+            border-radius: 1px;
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .contact-icons a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .contact-icons img {
+            width: 50px; /* Ajusta el tamaño de los iconos según sea necesario */
+            height: 50px;
+            margin: 0 10px;
+        }
+
+        .contact-icons a:hover {
+            color: #ffca28; /* Cambia el color al pasar el ratón sobre los iconos */
+        }
+        .profile-img {
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 1%; /* Hace que la imagen tenga forma circular */
+    margin-right: 20px; /* Espaciado entre la imagen y el contenido del héroe */
+    border: 2px solid #0b0c10;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav>
+        <img src="MTECH.png" alt="Tu Logo" class="logo">
+        <a href="#about">Sobre Mí</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <header class="hero">
+        <img src="melisa.jpg" alt="Tu Foto" class="profile-img">
+        <div class="hero-content">
+            <h1>Melisa Sierra</h1>
+            <p>Estudiante de Ingeniería de Sistemas</p>
+        </div>
+    </header>
+    
+
+    <section id="about" class="section">
+        <div class="section-content">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Soy Melisa Sierra, estudiante apasionada de Ingeniería de Sistemas en la Universidad de Córdoba.
+                Mi viaje académico va más allá de acumular conocimientos; lo veo como un proceso creativo para resolver
+                problemas y aportar al mundo tecnológico en constante evolución.
+
+                Fuera del código, me sumerjo en la lectura, explorando mundos imaginarios y aprendiendo diversas
+                perspectivas. La combinación de creatividad y lógica es esencial en tecnología, y mi amor por la lectura
+                alimenta mi imaginación, permitiéndome pensar fuera de lo común.
+
+                En mis momentos de descanso, busco equilibrio entre mente y cuerpo, dedicando tiempo a actividades
+                físicas. El ejercicio no solo beneficia mi salud, sino que también aporta claridad mental y energía
+                positiva que se reflejan en mi trabajo diario.
+
+                Mi enfoque en la ingeniería de sistemas trasciende la resolución de problemas técnicos. Busco
+                oportunidades constantemente, enfrentando desafíos con entusiasmo y creatividad. Emocionada por el viaje
+                que me espera, estoy lista para contribuir al mundo de la tecnología.
+
+                ¡Bienvenido a mi espacio digital, donde la pasión por la ingeniería se entrelaza con la creatividad y el
+                aprendizaje continuo! 🚀💻</p>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="section-content">
+            <h2>Experiencia</h2>
+
+            <div class="job">
+                <h3>Desarrollo de Software para Ganadería - Proyecto de Semestre</h3>
+                <p>Software para llevar el registro de inseminaciones en ganadería utilizando NetBeans 8.2, PHP, MySQL
+                    en XAMPP con PhpMyAdmin.</p>
+                <p>Período: Semestre [Indica el número del semestre] - [Fecha de finalización]</p>
+            </div>
+
+            <!-- Agrega más bloques de experiencia según sea necesario -->
+
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="section-content">
+            <h2>Proyectos</h2>
+
+            <div class="project" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+                <h3>Plataforma de Apoyo para Estudiantes</h3>
+                <p>Desarrollo de una plataforma en HTML y CSS para apoyar a estudiantes de primaria, secundaria y
+                    universitarios con problemas en áreas como física, química, cálculo y matemáticas.</p>
+                <div class="project-details">
+                    <p>Tecnologías utilizadas: HTML, CSS</p>
+                </div>
+            </div>
+
+            <div class="project" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+                <h3>Plataforma de Matrículas para Colegio</h3>
+                <p>Desarrollo de una plataforma para realizar las matrículas de un colegio utilizando HTML, CSS, PHP y
+                    MySQL en XAMPP con PhpMyAdmin.</p>
+                <div class="project-details">
+                    <p>Tecnologías utilizadas: HTML, CSS, PHP, MySQL</p>
+                </div>
+            </div>
+
+            <!-- Agrega más bloques de proyectos según sea necesario -->
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de:</p>
+
+            <!-- Enlaces a redes sociales -->
+            <div class="contact-icons">
+                <a href="https://wa.me/573005488239" target="_blank">
+                    <img src="whatsapp.png" alt="WhatsApp">
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100005298078420" target="_blank">
+                    <img src="facebook.png" alt="Facebook">
+                </a>
+
+                <a href="https://www.instagram.com/melysh_03?igsh=MXBmdjdxZjBpNzh1Yg==" target="_blank">
+                    <img src="ig.png" alt="Instagram">
+                </a>
+
+                <a href="mailto:melylds03@gmail.com" target="_blank">
+                    <img src="gmail.png" alt="Correo Electrónico">
+                </a>
+
+            </div>
+            <p>Dirección: Sahagún-Córdoba, Colombia</p>
+        </div>
+    </section>
+
+    <script>
+        function showDetails(project) {
+            project.querySelector('.project-details').style.display = 'block';
+        }
+
+        function hideDetails(project) {
+            project.querySelector('.project-details').style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>
